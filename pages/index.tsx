@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
+import Layout from './Layout'
 
 const Home: NextPage = () => {
   return (
-    <div className='text-3xl'>
-      <h1>PokeNext</h1>
-    </div>
-  )
-}
+    <Layout title='PokeNext'>
+      <h1>{title}</h1>
+    </Layout>
+  )}
 
 export default Home
